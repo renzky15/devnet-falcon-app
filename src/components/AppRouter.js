@@ -17,7 +17,7 @@ function AppRouter() {
                 
                     <div className="site-wrap">
                     <Header/>
-                    <Route path="/" exact component={LandingPage} />
+                    <LandingPage />
                     <WorkPage />
                     <ServicesPage />
                     <AboutPage />
