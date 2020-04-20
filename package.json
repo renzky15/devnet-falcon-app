@@ -2,6 +2,7 @@
   "name": "dev-net-falcon",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "homepage": "http://devnet-falcon-app.herokuapp.com",
   "engines": {
     "node": "12.16.x",
     "npm": "6.x"

@@ -33,7 +33,7 @@ class Header extends Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <p className="mb-0">
-                                    <span className="mr-3"><strong className="text-white">Phone:</strong> <a href="tel://#">+1 234 5678 9101</a></span>
+                                    <span className="mr-3"><strong className="text-white">Phone:</strong> <a href="tel://#">(501)-634-5180</a></span>
                                     <span><strong className="text-white">Email:</strong> <a href="#">info@devnetfalcon.com</a></span>
                                 </p>
                             </div>

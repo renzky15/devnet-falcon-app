@@ -1,0 +1,19 @@
+#process-section .our-process-container {
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+}
+#process-section .our-process-container .content-list-wrapper {
+    display: flex;
+    flex-flow: row;
+    
+}
+#process-section .our-process-container .content-list-wrapper .process-member{
+    padding: 1rem;
+    
+}
+#process-section .our-process-container .content-list-wrapper .process-member .person #process-desc{
+    text-align: justify;
+    
+}

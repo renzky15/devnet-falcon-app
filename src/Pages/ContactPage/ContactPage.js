@@ -69,12 +69,21 @@ class ContactPage extends Component {
                             <div className="col-md-5">
                                 <div className="p-4 mb-3 bg-white">
                                     <p className="mb-0 font-weight-bold">Address</p>
-                                    <p className="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+                                    <p className="mb-4">Happy Avenue Independence, Stann Creek District</p>
                                     <p className="mb-0 font-weight-bold">Phone</p>
-                                    <p className="mb-4"><a href="#">+1 232 3235 324</a></p>
+                                    <p className="mb-4"><a href="#">(501)-634-5180</a></p>
                                     <p className="mb-0 font-weight-bold">Email Address</p>
-                                    <p className="mb-0"><a href="#">youremail@domain.com</a></p>
+                                    <p className="mb-0"><a href="#">info@devnetfalcon@gmail.com</a></p>
+                                    <br />
+
+                                    <ul className="ul-social-circle">
+                                            <li><a href="#"><span className="icon-facebook" /></a></li>
+                                            <li><a href="#"><span className="icon-twitter" /></a></li>
+                                            <li><a href="#"><span className="icon-linkedin" /></a></li>
+                                            <li><a href="#"><span className="icon-instagram" /></a></li>
+                                    </ul>
                                 </div>
+                               
                             </div>
                         </div>
                     </div>

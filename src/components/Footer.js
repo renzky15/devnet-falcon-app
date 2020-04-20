@@ -31,7 +31,7 @@ class Footer extends Component {
                                 <div className="col-md-9">
                                     <div className="row">
                                         <div className="col-md-5">
-                                            <h2 className="footer-heading mb-4">About Us</h2>
+                                            <h2 className="footer-heading mb-4">LOGO</h2>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
                                         </div>
                                         <div className="col-md-3 ml-auto">

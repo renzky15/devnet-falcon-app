@@ -34,8 +34,9 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_1.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_1.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Bonzai Tree</h2>
+                                        <h2>Project #1</h2>
                                         <span className="category">Web Application</span>
+                                        
                                     </div>
                                 </a>
                             </div>
@@ -43,8 +44,8 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_2.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_2.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Simple Woman</h2>
-                                        <span className="category">Branding</span>
+                                        <h2>Project #2</h2>
+                                        <span className="category">Web Design</span>
                                     </div>
                                 </a>
                             </div>
@@ -52,7 +53,7 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_3.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_3.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Fruits</h2>
+                                        <h2>Project #3</h2>
                                         <span className="category">Website</span>
                                     </div>
                                 </a>
@@ -61,7 +62,7 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_4.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_4.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Design Material</h2>
+                                        <h2>Project #4</h2>
                                         <span className="category">Web Application</span>
                                     </div>
                                 </a>
@@ -70,8 +71,8 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_5.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_5.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Handy Food</h2>
-                                        <span className="category">Branding</span>
+                                        <h2>Project #5</h2>
+                                        <span className="category">Web Design</span>
                                     </div>
                                 </a>
                             </div>
@@ -79,7 +80,7 @@ class WorkPage extends Component {
                                 <a href="dist/images/img_6.jpg" className="media-1" data-fancybox="gallery">
                                     <img src="dist/images/img_6.jpg" alt="Image" className="img-fluid" />
                                     <div className="media-1-content">
-                                        <h2>Cat With Cup</h2>
+                                        <h2>Project #6</h2>
                                         <span className="category">Website</span>
                                     </div>
                                 </a>
@@ -88,46 +89,63 @@ class WorkPage extends Component {
                     </div>
                 </section>
 
-                {/* feature 1 */}
+                {/* Our Process 1 */}
 
-                
-                    <section className="section ft-feature-1">
-                        <div className="container">
-                            <div className="row align-items-stretch">
-                                <div className="col-12 bg-black w-100 ft-feature-1-content">
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-5">
-                                            <img src="dist/images/about_1.jpg" alt="Image" className="img-fluid mb-4 mb-lg-0" />
-                                        </div>
-                                        <div className="col-lg-3 ml-auto">
-                                            <div className="mb-5">
-                                                <h3 className="d-flex align-items-center"><span className="icon icon-beach_access mr-2" /><span>Strategy</span></h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                                                <p><a href="#">Read More</a></p>
-                                            </div>
-                                            <div>
-                                                <h3 className="d-flex align-items-center"><span className="icon icon-build mr-2" /><span>Web Development</span></h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                                                <p><a href="#">Read More</a></p>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-3">
-                                            <div className="mb-5">
-                                                <h3 className="d-flex align-items-center"><span className="icon icon-format_paint mr-2" /><span>Art Direction</span></h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                                                <p><a href="#">Read More</a></p>
-                                            </div>
-                                            <div>
-                                                <h3 className="d-flex align-items-center"><span className="icon icon-question_answer mr-2" /><span>Copywriting</span></h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                                                <p><a href="#">Read More</a></p>
-                                            </div>
-                                        </div>
+                <div className="site-section border-bottom" id="process-section">
+                        <div className="container our-process-container">
+                            <div className="header-our-process">
+                                <div className="wrapper-our-process">
+                                    <h2 className="text-black h1 site-section-heading">Our Process</h2>
+                                </div>
+                            </div>
+                            <div className="desc-our-process">
+                                <div className="wrapper-our-process">
+                                    <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="content-list-wrapper">
+                                <div className="process-member">
+                                    <div className="person text-center">
+                                        <img src="dist/images/maintenance-icon.png" alt="Image" className="img-fluid rounded-circle w-50 mb-5" />
+                                        <h3>PLAN</h3>
+                                        <p className="mb-4"  id = "process-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="process-member" data-aos="fade" data-aos-delay={100}>
+                                    <div className="person text-center">
+                                        <img src="dist/images/maintenance-icon.png" alt="Image" className="img-fluid rounded-circle w-50 mb-5" />
+                                        <h3>DESIGN</h3>
+                                        
+                                        <p className="mb-4" id = "process-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className="process-member" data-aos="fade" data-aos-delay={100}>
+                                    <div className="person text-center">
+                                        <img src="dist/images/maintenance-icon.png" alt="Image" className="img-fluid rounded-circle w-50 mb-5" />
+                                        <h3>DEVELOP</h3>
+                                        
+                                        <p className="mb-4" id = "process-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                                        
+                                    </div>
+                                </div>
+                                <div className="process-member" data-aos="fade" data-aos-delay={100}>
+                                    <div className="person text-center">
+                                        <img src="dist/images/maintenance-icon.png" alt="Image" className="img-fluid rounded-circle w-50 mb-5" />
+                                        <h3>LAUNCH</h3>
+                                        
+                                        <p className="mb-4" id = "process-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                                       
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
 
                     {/* testimonials */}
 
